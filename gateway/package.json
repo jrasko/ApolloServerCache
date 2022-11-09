@@ -1,0 +1,20 @@
+{
+  "name": "gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only --no-notify --exit-child index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/gateway": "^2.0.5",
+    "apollo-server": "^3.10.0",
+    "apollo-server-plugin-response-cache": "^3.7.0",
+    "graphql": "^16.5.0",
+    "graphql-tag": "^2.12.6"
+  }
+}
